@@ -11,7 +11,9 @@ Aparentemente, ainda preciso dar uma revisada na estrutura sintática de Python 
 
 ...
 
-Pelo visto eu nao irei conseguir terminar dentro do tempo, entao vou apenas fazer no meu tempo.
+Pelo visto eu nao irei conseguir terminar dentro do tempo, entao vou apenas fazer devagar mesmo.
+
+Adicionalmente, eu diria que o pre requisito pra este curso seria um pouco de experiencia com python, e nao apenas "logica de programacao". Como programacao em C geralmente e vista em universidades, eu nao to vendo muita interseccao entre a estrutura ou logica de uso da ferramenta Colab com os programas que tive que fazer em C. 
 
 ## Recursos uteis que mandaram no Discord
 Cheatsheet sobre pandas: https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
@@ -49,6 +51,24 @@ Sobre histogramas em Python: https://data36.com/plot-histogram-python-pandas/
 
 ## Desafios
 ### Desafio 1: Proporção dos inscritos por idade.
+Nao parece ser o meio mais eficiente para fazer isso, mas como nao sei nada de python ou panda, estou satisfeito.
+```python
+(dados["NU_IDADE"].value_counts()/dados["NU_IDADE"].value_counts().sum()*100).sort_index()
+
+Resultado:
+13     0.003140
+14     0.110692
+15     1.577171
+16     6.146962
+17    16.687078
+        ...    
+73     0.001570
+75     0.001570
+76     0.000785
+77     0.000785
+82     0.000785
+Name: NU_IDADE, Length: 65, dtype: float64
+```
 
 ### Desafio 2: Descobrir de quais estados são os inscritos com 13 anos.
 Os 4 alunos de 13 anos que se inscreveram no Enem sao dos estados de SP, MT, BA e AP.
@@ -66,8 +86,15 @@ dtype: int64
 ```
 
 ### Desafio 3: Adicionar título no gráfico
-Por mais simples que pareca, eu nao consegui isso. Vi em alguns lugares usando o plt.suptitle("Texto"), mas nao entendo a razao para nao funcionar. EU preciso entender como python e pandas funcionam de fato, e nao sair procurando como que da pra fazer as coisas. 
+Por mais simples que pareca, eu nao consegui isso. Vi em alguns lugares usando o **plt.suptitle("Texto")**, mas nao entendo a razao para nao funcionar. EU preciso entender como python e pandas funcionam de fato, e nao sair procurando como que da pra fazer as coisas. 
 
 ### Desafio 4: Plotar os Histogramas das idades dos do treineiro e não treineiros.
+Usar **.query()** para buscar na lista, e ajustar **alpha** na criacao do histograma para adicionar transparencia.
+```python
+dados.query("IN_TREINEIRO==1")["NU_IDADE"].hist(alpha=0.8, bins=65)
+dados.query("IN_TREINEIRO==0")["NU_IDADE"].hist(alpha=0.8, bins=65)
+```
+Resultado: 
+![Histograma de treineiros e nao-treineiros](HistogramaTreineiros.png)
 ### Desafio 5: Comparar as distribuições das provas em inglês espanhol
 ### Desafio 6: Explorar a documentações e visualizações com matplotlib ou pandas e gerar novas visualizações.
