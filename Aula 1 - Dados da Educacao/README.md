@@ -1,6 +1,6 @@
 # Aula 1
 
-## Experiencia
+## Experiência
 Como algumas atividades da universidade acabaram devorando o meu tempo do início da semana, início esta primeira aula diretamente do quarto dia. 
 
 Além do mais, meu contato com linguagens de programação existe desde praticamente este ano (2020), e uma vez que meus conhecimentos se baseiam apenas na linguagem C, que acredito ser bastante útil para entender, de certo modo, o funcionamento da memória (apesar de que tive de pesquisar bem mais a parte para entender direito); apesar de C ser a minha base para lógica de programação, devo admitir que estou "levando um pau" nessa primeira aula haha, mesmo sempre tendo ouvido o pessoal dizer que Python seria muito fácil e C e difícil (até o momento acho a afirmação ultrajante kkk, python apresenta o peculiar habito dos meus colegas de abreviar tudo, o que dá uma bela de uma bugada na cabeça até que você decore o que signifiquem...). 
@@ -24,28 +24,28 @@ Documentação Pandas: https://pandas.pydata.org/pandas-docs/stable/user_guide/i
 Sobre histogramas em Python: https://data36.com/plot-histogram-python-pandas/
 
 ## Perguntas sobre os dados que surgiram durante a primeira aula
-•	(Treineiro) Será que quem e treineiro tem maiores chances de aumentar a nota?
+•       (Treineiro) Será que quem e treineiro tem maiores chances de aumentar a nota?
 
-•	(Treineiro) Quem faz o Enem como treineiro tem maiores chances de aprovação (como o dado de aprovação não está presente, determinar uma média de nota mínima para aprovações seria interessante) (requereria um estudo temporal com os dados de anos anteriores para checar se a pessoa já fez antes, e se sim, quantas vezes...)
+•       (Treineiro) Quem faz o Enem como treineiro tem maiores chances de aprovação (como o dado de aprovação não está presente, determinar uma média de nota mínima para aprovações seria interessante) (requereria um estudo temporal com os dados de anos anteriores para checar se a pessoa já fez antes, e se sim, quantas vezes...)
 
-•	(Inglês e espanhol) será que os alunos que escolhem espanhol tiram mais ou menos pontos que aqueles que escolheram inglês, na prova de linguagens? 
+•       (Inglês e espanhol) será que os alunos que escolhem espanhol tiram mais ou menos pontos que aqueles que escolheram inglês, na prova de linguagens? 
 
 * Ouvi sobre casos de pessoas que já que não falavam ou sabiam muito sobre nenhuma das duas línguas, escolheu espanhol na impressão de ser mais próximo da língua portuguesa. Seria isso verdade? Seria isso algo possível de ser medido com os dados disponíveis? 
 
 **Lembrar de analisar o dicionário de dados para pensar em perguntas a se fazer.**
 
 ## Questões e comentários sobre Colab
-•	Como será que o gráfico de boxplot(?) ficaria caso os dados estivessem igualmente distribuídos?
+•       Como será que o gráfico de boxplot(?) ficaria caso os dados estivessem igualmente distribuídos?
 
-•	Para alguém que só programou em C pela primeira vez, que e considerada mais tipada e difícil, a estrutura sintática de Python (ou seja, lá o que for que esse Colab usa) está até que bem críptica
+•       Para alguém que só programou em C pela primeira vez, que e considerada mais tipada e difícil, a estrutura sintática de Python (ou seja, lá o que for que esse Colab usa) está até que bem críptica
 
-•	Teria sido interessante se explicassem como as funcoes poderiam ser utilizadas de uma maneira mais generica, ao inves de apenas demonstrar algumas aplicacoes especificas. Para mim que só sei um pouco de programação e estou apenas terminando minhas aulas sobre estruturas de dados em C, e, portanto, tenho um certo conhecimento de lógica de programação; confesso estar um pouco perdido sobre como esse negócio (Panda) manuseia listas inteiras. Eu sei como trabalhar com itens e criar loops para calcular a porcentagem, mas como isso acontece em Python com todas essas colunas e dados?? Kkk muito doido
+•       Teria sido interessante se explicassem como as funcoes poderiam ser utilizadas de uma maneira mais generica, ao inves de apenas demonstrar algumas aplicacoes especificas. Para mim que só sei um pouco de programação e estou apenas terminando minhas aulas sobre estruturas de dados em C, e, portanto, tenho um certo conhecimento de lógica de programação; confesso estar um pouco perdido sobre como esse negócio (Panda) manuseia listas inteiras. Eu sei como trabalhar com itens e criar loops para calcular a porcentagem, mas como isso acontece em Python com todas essas colunas e dados?? Kkk muito doido
 
-•	A pesquisar: o que é panda e no que difere de uma linguagem (Python ou C)?
+•       A pesquisar: o que é panda e no que difere de uma linguagem (Python ou C)?
 
-•	Fato: os relatórios de erro de Python não ajudam muito alguém ignorante como eu :/
+•       Fato: os relatórios de erro de Python não ajudam muito alguém ignorante como eu :/
 
-•	Achei um Cheatsheet que mandaram no Discord (ver em recursos acima).
+•       Achei um Cheatsheet que mandaram no Discord (ver em recursos acima).
 
 ## Desafios
 ### Desafio 1: Proporção dos inscritos por idade.
@@ -109,3 +109,5 @@ Resultado:
 ![Histograma - Notas da prova de Linguagens e Códigos de acordo com a opção de língua estrangeira](imagens/HistogramaLinguagens.png)
 ### Desafio 6: Explorar a documentações e visualizações com matplotlib ou pandas e gerar novas visualizações.
 Acho que as pesquisas para os desafios são mais que suficientes :)
+
+
